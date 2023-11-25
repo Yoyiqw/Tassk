@@ -1,0 +1,84 @@
+.grade {
+  background: $bg-blue;
+  width: 390px;
+  height: 630px;
+  &__content {
+    padding-top: 31px;
+  }
+  &__user {
+    width: 95px;
+    background: $text-white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 7px 6px;
+    margin: 0px 250px;
+  }
+  &__request {
+    width: 356px;
+    height: 187px;
+    border-radius: 20px;
+    background: $bg-dark-white;
+    margin: 129px auto;
+    text-align: center;
+    
+    position: relative;
+  }
+  &__text {
+    p {
+      color: $bg-blue;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      position: absolute;
+      top: 42px;
+      left: 25px;
+    }
+  }
+  &__top {
+    padding-top: 58px;
+  }
+  &__arrow {
+    position: absolute;
+    top: 20px;
+    right:0px;
+    cursor: pointer;
+  }
+  &__line{
+    padding-top: 120px;
+  }
+  &__password {
+    text-align: center;
+    p {
+      color: $text-white;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+  &__burger-btn {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: $text-white;
+    z-index: 2;
+    span {
+      position: absolute;
+      width: 20px;
+      height: 3px;
+      background-color: $text-black;
+      left: 2px;
+      transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
+    }
+    span:nth-child(1) {
+      transform: translateY(-5px);
+    }
+    span:nth-child(3) {
+      transform: translateY(5px);
+    }
+  }
+}

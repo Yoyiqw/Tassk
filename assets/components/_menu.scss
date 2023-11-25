@@ -1,0 +1,29 @@
+.menu {
+  width: 90px;
+  position: absolute;
+  left: 390px;
+  top: 95px;
+  background-color: $text-white;
+  padding: 23px 197px 23px 18px;
+  transition: transform .5s;
+  z-index: 1;
+  border-radius: 13.17px;
+  box-shadow: 0.94073px 0.94073px 9.4073px 7.52584px rgba(0, 0, 0, 0.06);
+  &__list {
+    display: block;
+  }
+  &__account {
+    color: $text-black;
+    font-size: 15.992px;
+    font-weight: 600;
+    display: block;
+  }
+  &__link {
+    display: block;
+    color: $text-black;
+    font-size: 15.992px;
+    font-weight: 300;
+    padding: 38px 0px 0px 0px;
+    width: 142px;
+  }
+}

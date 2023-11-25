@@ -1,0 +1,80 @@
+body {
+  font-family: "Inter";
+  max-width: 390px;
+  width: 390px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+.container{
+  max-width: 249px;
+  margin: 0 auto;
+}
+
+.new.open .menu{
+  transform: translateX(-100%);
+}
+
+.new.open span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+}
+.new.open span:nth-child(2){
+  opacity: 0;
+}
+.new.open span:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+}
+
+
+
+.camera.open .menu{
+  transform: translateX(-100%);
+}
+
+.camera.open span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+}
+.camera.open span:nth-child(2){
+  opacity: 0;
+}
+.camera.open span:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+}
+
+
+.grade.open .menu{
+  transform: translateX(-100%);
+}
+
+.grade.open span:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+}
+.grade.open span:nth-child(2){
+  opacity: 0;
+}
+.grade.open span:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+}
