@@ -1,8 +1,8 @@
 body {
   font-family: "Inter";
-  max-width: 390px;
-  width: 390px;
+  width: 100%;
   margin: 0;
+  height: 100vh;
 }
 
 h1,
@@ -29,52 +29,96 @@ button {
   border: none;
 }
 
-.container{
+.container {
   max-width: 249px;
   margin: 0 auto;
 }
 
-.new.open .menu{
+.new.open .menu {
   transform: translateX(-100%);
+  display: block;
 }
 
-.new.open span:nth-child(1){
+.new.open span:nth-child(1) {
   transform: translateY(0) rotate(45deg);
 }
-.new.open span:nth-child(2){
+.new.open span:nth-child(2) {
   opacity: 0;
 }
-.new.open span:nth-child(3){
+.new.open span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }
 
-
-
-.camera.open .menu{
+.camera.open .menu {
   transform: translateX(-100%);
+  display: block;
 }
 
-.camera.open span:nth-child(1){
+.camera.open span:nth-child(1) {
   transform: translateY(0) rotate(45deg);
 }
-.camera.open span:nth-child(2){
+.camera.open span:nth-child(2) {
   opacity: 0;
 }
-.camera.open span:nth-child(3){
+.camera.open span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }
 
-
-.grade.open .menu{
+.grade.open .menu {
   transform: translateX(-100%);
+  display: block;
 }
 
-.grade.open span:nth-child(1){
+.grade.open span:nth-child(1) {
   transform: translateY(0) rotate(45deg);
 }
-.grade.open span:nth-child(2){
+.grade.open span:nth-child(2) {
   opacity: 0;
 }
-.grade.open span:nth-child(3){
+.grade.open span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+.equests.open .menu {
+  transform: translateX(-100%);
+  display: block;
+}
+
+.equests.open span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+.equests.open span:nth-child(2) {
+  opacity: 0;
+}
+.equests.open span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.error.open .menu {
+  transform: translateX(-100%);
+  display: block;
+}
+
+.error.open span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+.error.open span:nth-child(2) {
+  opacity: 0;
+}
+.error.open span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.request.open .menu {
+  transform: translateX(-100%);
+  display: block;
+}
+
+.request.open span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+.request.open span:nth-child(2) {
+  opacity: 0;
+}
+.request.open span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }

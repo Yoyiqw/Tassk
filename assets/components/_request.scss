@@ -1,4 +1,4 @@
-.camera {
+.request {
   background: $bg-blue;
   height: 100vh;
   &__content {
@@ -26,6 +26,9 @@
   }
   &__text {
     padding-top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     p {
       color: $bg-blue;
       font-size: 15px;
@@ -68,75 +71,92 @@
       transform: translateY(5px);
     }
   }
+  &__send{
+    padding: 20px 20px;
+    margin: 30px auto;
+    cursor: pointer;
+    border-radius: 27px;
+    background: $bg-light-blue;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    color: $text-white;
+    transition: 0.3s;
+  }
+  &__send:hover{
+    background: $text-black;
+  }
+}
+select {
+  width: 60px;
+  border-radius: 20px;
 }
 
-@media screen and (max-width:582px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 582px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 438px;
     }
   }
 }
-@media screen and (max-width:542px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 542px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 400px;
     }
   }
 }
-@media screen and (max-width:506px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 506px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 380px;
     }
   }
 }
-@media screen and (max-width:484px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 484px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 350px;
     }
   }
 }
-@media screen and (max-width:456px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 456px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 300px;
     }
   }
 }
-@media screen and (max-width:406px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 406px) {
+  .request {
+    &__qr {
       margin: 65px auto;
     }
-    &__user{
+    &__user {
       margin: 0 250px;
     }
   }
 }
-@media screen and (max-width:360px) {
-  .camera {
-    &__qr{
+@media screen and (max-width: 360px) {
+  .request {
+    &__qr {
       margin: 65px auto;
       width: 300px;
     }
-    &__user{
+    &__user {
       margin: 0 200px;
     }
   }

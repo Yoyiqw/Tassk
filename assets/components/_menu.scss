@@ -1,7 +1,8 @@
 .menu {
+  display: none;
   width: 90px;
   position: absolute;
-  left: 390px;
+  left: 580px;
   top: 95px;
   background-color: $text-white;
   padding: 23px 197px 23px 18px;
@@ -25,5 +26,36 @@
     font-weight: 300;
     padding: 38px 0px 0px 0px;
     width: 142px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .menu{
+    left: 530px;
+  }
+}
+@media screen and (max-width:506px) {
+  .menu{
+    left: 490px;
+  }
+}
+@media screen and (max-width:484px) {
+  .menu{
+    left: 450px;
+  }
+}
+@media screen and (max-width:444px) {
+  .menu{
+    left: 400px;
+  }
+}
+@media screen and (max-width:406px) {
+  .menu{
+    left: 360px;
+  }
+}
+@media screen and (max-width:320px) {
+  .menu{
+    left: 310px;
   }
 }

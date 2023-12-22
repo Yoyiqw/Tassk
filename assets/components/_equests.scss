@@ -1,4 +1,4 @@
-.camera {
+.equests {
   background: $bg-blue;
   height: 100vh;
   &__content {
@@ -23,9 +23,6 @@
     background: $bg-dark-white;
     margin: 129px 165px auto;
     text-align: center;
-  }
-  &__text {
-    padding-top: 175px;
     p {
       color: $bg-blue;
       font-size: 15px;
@@ -37,8 +34,8 @@
     padding-top: 58px;
   }
   &__password {
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
     p {
       color: $text-white;
       font-size: 15px;
@@ -68,10 +65,23 @@
       transform: translateY(5px);
     }
   }
+  &__text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .equests {
+    &__qr{
+      margin: 65px auto;
+    }
+  }
 }
 
 @media screen and (max-width:582px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -81,7 +91,7 @@
   }
 }
 @media screen and (max-width:542px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -91,7 +101,7 @@
   }
 }
 @media screen and (max-width:506px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -101,7 +111,7 @@
   }
 }
 @media screen and (max-width:484px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -111,7 +121,7 @@
   }
 }
 @media screen and (max-width:456px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -121,7 +131,7 @@
   }
 }
 @media screen and (max-width:406px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
     }
@@ -131,7 +141,7 @@
   }
 }
 @media screen and (max-width:360px) {
-  .camera {
+  .equests {
     &__qr{
       margin: 65px auto;
       width: 300px;

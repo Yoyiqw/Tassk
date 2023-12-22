@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
 
-    <section class="error">
-        <div class="error__content">
+<body>
+    <section class="request">
+        <div class="request__content">
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
@@ -19,37 +20,38 @@
                     </li>
                     <li class="menu__item">
                         <a class="menu__link" href="#">
-                            Запросить оценку
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">
                             Выйти
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="error__user">
-                <button class="error__burger-btn">
+            <div class="request__user">
+                <button class="request__burger-btn">
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
                 <img src="./assets/img/new/user.svg" alt="">
             </div>
-            <div class="error__qr">
-                <div class="error__text">
-                    <p>Страница не найдена</p>
-                    <img src="./assets/img/hero/line_blue.svg" alt="">
+            <div class="request__qr">
+                <div class="request__text">
+                    <select>
+                        <option >1</option>
+                        <option >2</option>
+                        <option >3</option>
+                        <option >4</option>
+                        <option >5</option>
+                    </select>
+                    <button class="request__send">Отправить</button>
                 </div>
             </div>
-            <div class="error__password">
+            <div class="request__password">
                 <p>Возникли проблемы?</p>
                 <img src="./assets/img/hero/line.svg" alt="">
             </div>
         </div>
     </section>
-    <script src="./error.js"></script>
-    
+    <script src="./request.js"></script>
 </body>
+
 </html>

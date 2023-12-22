@@ -1,7 +1,6 @@
 .grade {
   background: $bg-blue;
-  width: 390px;
-  height: 630px;
+  height: 100vh;
   &__content {
     padding-top: 31px;
   }
@@ -15,7 +14,7 @@
     justify-content: flex-end;
     gap: 20px;
     padding: 7px 6px;
-    margin: 0px 250px;
+    margin: 0px 484px;
   }
   &__request {
     width: 356px;
@@ -79,6 +78,97 @@
     }
     span:nth-child(3) {
       transform: translateY(5px);
+    }
+  }
+}
+
+@media screen and (max-width:640px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+  }
+}
+
+@media screen and (max-width:582px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 438px;
+    }
+  }
+}
+@media screen and (max-width:542px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 400px;
+    }
+  }
+}
+@media screen and (max-width:506px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 380px;
+    }
+  }
+}
+@media screen and (max-width:484px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 350px;
+    }
+  }
+}
+@media screen and (max-width:456px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 300px;
+    }
+  }
+}
+@media screen and (max-width:406px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+    }
+    &__user{
+      margin: 0 250px;
+    }
+  }
+}
+
+@media screen and (max-width:360px) {
+  .grade {
+    &__qr{
+      margin: 65px auto;
+      width: 300px;
+    }
+    &__user{
+      margin: 0 200px;
+    }
+  }
+}
+@media screen and (max-width:352px) {
+  .grade {
+    &__request{
+      width: 315px;
+    }
+    &__user{
+      margin: 0 200px;
     }
   }
 }
